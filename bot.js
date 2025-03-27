@@ -157,7 +157,7 @@ client.on("message", async (message) => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer AstraCS:CcQsbadEoqEqYeSNGveiHTDG:5e3da5a6ea98864e11450824af1b8cb0a33e0308984e84fbec0ec8b82d61cd88"
+            "Authorization": "Bearer <Api Token>"
           },
           body: JSON.stringify({
             input_value: inputValue,
